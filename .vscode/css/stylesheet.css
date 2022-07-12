@@ -1,0 +1,70 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  font-size:110%;
+  background-color: darkgray;
+  display: flex;
+  flex-direction: column;
+  
+}
+main{
+display: flex;
+flex-direction: row;
+overflow: unset;
+}
+h1{
+  color: rgba(214, 226, 48, 0.719);
+}
+header {
+  text-align: center;
+justify-content: center;
+}
+#profpic{
+  width: 15%;
+  height: 10%;
+  border-radius: 25%;
+  border: 4px dotted olive;
+}
+#heading{
+  font-family: cursive;
+  font-size: 90%;
+  background-color: rgba(0, 0, 0, 0.363);
+  
+}
+
+#sidebar{
+  width: 26%;
+  background-color: rgba(214, 226, 48, 0.719);
+  text-align: start;
+  
+}
+.nav-menu{
+  list-style-type: none;
+  padding: 0%;
+  text-align: center;
+font-size: larger;
+font-style: oblique;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.363);
+  text-align: center;
+  
+}
+h2{
+  color: rgba(185, 43, 38, 0.575);
+  font-size: 30px;
+  background-color: #ccc;
+  margin: 1px;
+  padding: 1px;
+  border-style: dotted;
+  border-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-color: black;
+  border-radius: 10px 10px 10px 10px;
+}
+.icons{
+  width: 3rem;
+  height: auto;
+  margin: auto;
+}
